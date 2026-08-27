@@ -1,4 +1,5 @@
 import { login } from "./actions";
+import Link from "next/link";
 
 export default function LoginPage() {
   return (
@@ -69,13 +70,13 @@ export default function LoginPage() {
 
             {/* Forgot Password */}
             <div className="flex justify-end">
-              <button
-                type="button"
-                className="text-sm font-medium text-blue-600 hover:text-blue-700"
-              >
-                Forgot password?
-              </button>
-            </div>
+  <Link
+    href="/forgot-password"
+    className="text-sm font-medium text-blue-600 hover:text-blue-700"
+  >
+    Forgot password?
+  </Link>
+</div>
 
             {/* Submit */}
             <button

@@ -4,9 +4,14 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 
 const hiddenRoutes = [
+  "/",
   "/dashboard",
   "/reports",
   "/settings",
+  "/login",
+  "/signup",
+  "/forgot-password",
+  "/reset-password",
 ];
 
 export default function ConditionalHeader() {
