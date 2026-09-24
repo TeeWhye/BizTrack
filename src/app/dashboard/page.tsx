@@ -2,6 +2,7 @@ import { logout } from "@/app/actions/auth";
 import { prisma } from "@/lib/prisma";
 import { getCurrentUser } from "@/lib/auth";
 import { redirect } from "next/navigation";
+import MobileNav from "@/components/MobileNav";
 
 export const dynamic = "force-dynamic";
 
@@ -122,8 +123,10 @@ const lowStockProducts = products
     .slice(0, 5);
 
   return (
-    <main className="min-h-screen bg-gray-50">
-      {/* Top Navigation */}
+  <main className="min-h-screen bg-gray-50">
+    <MobileNav />
+
+    {/* Top Navigation */}
       <header className="border-b bg-white">
         <div className="flex h-16 items-center justify-between px-8">
           <div className="text-2xl font-bold text-blue-600">

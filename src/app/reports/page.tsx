@@ -197,14 +197,6 @@ const repeatCustomers = customerSales.filter(
   return (
     <main className="min-h-screen bg-gray-50">
       {/* Header */}
-      <header className="border-b bg-white">
-        <div className="flex h-16 items-center justify-between px-8">
-          <div className="text-2xl font-bold text-blue-600">
-            BizTrack
-          </div>
-
-        </div>
-      </header>
 
       <div className="flex">
         {/* Sidebar */}
@@ -246,7 +238,7 @@ const repeatCustomers = customerSales.filter(
             </a>
 
             <a
-              href="/products"
+              href="/inventory"
               className="block rounded-lg px-4 py-3 text-gray-600 hover:bg-gray-50"
             >
               Inventory
