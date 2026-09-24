@@ -185,7 +185,7 @@ const lowStockProducts = products
             </a>
 
             <a
-              href="/products"
+              href="/inventory"
               className="block rounded-lg px-4 py-3 text-gray-600 hover:bg-gray-50"
             >
               Inventory
