@@ -393,7 +393,7 @@ const lowStockProducts = products
     </div>
 
     <a
-      href="/products"
+      href="/inventory"
       className="text-sm font-medium text-blue-600 hover:text-blue-700"
     >
       View Inventory →
